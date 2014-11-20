@@ -28,7 +28,7 @@ public class Sirat {
     private static final String ROW_ID_ATTRIBUTE = " "+ ROW_ID + " integer PRIMARY KEY AUTOINCREMENT ";
     private static final String UNIQUE_ATTRIBUTE = " UNIQUE ";
     private static final String PRIMARY_KEY_ATTRIBUTE = " PRIMARY KEY ";
-    private static final String NOT_NULL_ATTRIBUTE = " NOT NULL";
+    private static final String NOT_NULL_ATTRIBUTE = " NOT NULL ";
     private static final String CREATE_TABLE_COMMAND = "CREATE TABLE ";
     private static final String OPEN_BRACKET = "(";
     private static final String CLOSE_BRACKET = ")";
