@@ -1,9 +1,10 @@
-Sirat
-=====
+Sirat is using annotation like in hibernate (http://hibernate.org/) to set some attribute in java. Actually this is what sirat do can convert from this :
 
-Sirat is a library  to generate your Simple Pojo class to be a query that be used in ContentProvider.
+When we called 
 
-You can convert from this :
+		Sirat.generateQuery(Dog.class))
+		
+It will convert this class :
 
 		class Dog{
 			@PRIMARY_KEY private String name;
@@ -13,7 +14,7 @@ You can convert from this :
 			@Ignore private String birthPlace;
 		}
 		
-The class will be generate as query like this : 
+Into this class :
 		
 		CREATE TABLE 'Dog' (
 			'type' TEXT NOT NULL , 
